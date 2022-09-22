@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form name="formulario-aprendiendo" method="" action="">
+        <!-- Tipo Texto -->
+        <input
+            type="text"
+            name="nombre"
+            placeholder="Ingresa tu nombre"
+            maxlength="10"
+            minlength="2"
+            required
+        />
+        <br>
+        <br>
+        <!-- Tipo Password -->
+        <input
+            type="password"
+            name="contraseña"
+            placeholder="Ingresa tu contraseña"
+            maxlength="10"
+            minlength="2"
+            required
+        />
+        <br>
+        <br>
+
+        <!-- Tipo Number -->
+        <input
+            type="number"
+            name="edad"
+            min="0"
+            max="10"
+        />
+        <br>
+        <br>
+
+        <!-- Opcion 1 de agregar un Label -->
+        <label>
+            ¿Aceptas lo terminos?
+            <input
+                type="checkbox"
+                name="condiciones"
+            />
+        </label>
+
+        <br>
+        <br>
+
+        <!-- Opcion 2 de agregar un label -->
+        <label for="fmiembro" >¿Quieres ser miembro?</label>
+        <input
+            id="fmiembro"
+            type="checkbox"
+            name="miembro"        
+        />
+
+        <br>
+        <br>
+        <h6>Ingresa el rango de tu edad</h6>
+
+        <label for="fage-option1">0-15</label>
+        <input
+            id="fage-option1"
+            name="rango-edad"
+            type="radio"
+            value="0-15"
+        />
+
+        <label for="fage-option2">16-30</label>
+        <input
+            id="fage-option2"
+            name="rango-edad"
+            type="radio"
+            value="16-30"
+        />
+
+        <br>
+        <br>
+
+        <label>
+            Selecciona una hora
+            <input
+                name="hora"
+                type="time"
+                min="09:00"
+                max="18:00"
+            />
+        </label>
+
+        <br>
+        <br>
+
+        <label for="fanimal">Selecciona tu animal favorito</label>
+        <select name="animal" id="fanimal">
+            <option value="perro">Perro</option>
+            <option value="gato">Gato</option>
+            <option value="conejo">Conejo</option>
+        </select>
+
+
+        <br>
+        <br>
+
+        <label>
+            Seleccionar un color
+            <input 
+                type="color"
+                name="color_favorito"
+            />
+        </label>
+
+        <br>
+        <br>
+
+        <label>
+            Selecciona un archivo
+            <input 
+                type="file"
+                multiple
+                accept="video/*"
+            />
+        </label>
+
+        <br>
+        <br>
+
+        <textarea
+            name="observaciones"
+            rows="10"
+            cols="40"
+        >
+        </textarea>
+
+        <br>
+        <br>
+
+        <button type="submit">Enviar formulario</button>
+    </form>
+</body>
+</html>
