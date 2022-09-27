@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+.vw-vh{
+    display: inline-block;
+    border: 2px solid blue;
+    width: 100vw; /* viewport width -> ancho de la ventana*/ 
+    height: 50vh;  /* viewport height -> el alto de la ventana */
+}
+
+.hijo{
+    display: inline-block;
+    border: 2px solid red;
+    width: 100%; /* ¿cuanto el ancho del padre? */
+    height: 100%; /* ¿cuanto mide el padre en el alto */
+}
