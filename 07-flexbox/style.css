@@ -1,0 +1,33 @@
+.container{
+    width: 500px;
+    height: 200px;
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: row; /* por defecto */
+    justify-content: space-evenly;
+    align-items: center;
+    /* Desde el inicio al final -> space between */
+    /*flex directon -> row */
+}
+
+.item{
+    height: 100px;
+    border: 3px solid blue;
+}
+.item-2{
+    width: 100px;
+    border: 3px solid blue;
+}
+
+.container-2{
+    width: 500px;
+    height: 200px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+}

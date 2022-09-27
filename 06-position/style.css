@@ -1,12 +1,15 @@
 .menu{
     position: sticky;
     top: 0px;
+    background-color: beige;
+    z-index: 2;
 }
 /* .top {
     padding-top: 100px;
 } */
 
 .box{
+    z-index: 1;
     position: relative;
     border: 3px solid red;
     width: 500px;
