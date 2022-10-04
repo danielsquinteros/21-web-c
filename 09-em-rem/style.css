@@ -1,0 +1,26 @@
+/* HTML por defecto tiene font-size 16px */
+html{
+    font-size: 32px;
+}
+
+h1 {
+    font-size: 2rem; /* 64px*/ 
+}
+
+.text{
+    font-size: 0.5rem; /* 16px */
+}
+
+.container {
+    font-size: 60px;
+}
+
+.h1-container{
+    font-size: 2em;
+}
+
+.button{
+    background-color: aqua;
+    padding: 2em 2em;
+    font-size: 1rem; /* 32px */
+}
